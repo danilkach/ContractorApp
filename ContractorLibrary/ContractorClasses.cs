@@ -170,7 +170,8 @@ namespace ContractorLibrary
         public BitmapImage Photo { get; set; }
     }
     /// <summary>
-    /// Класс, преобразующий Windows.UI.Xaml.Controls в byte[] и наоборот
+    /// Класс, преобразующий файл изображения и 
+    /// Windows.UI.Xaml.Media.Imaging.BitmapImage в byte[] и наоборот
     /// </summary>
     public static class XamlImageConverter
     {
