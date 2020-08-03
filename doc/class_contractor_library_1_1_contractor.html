@@ -9,9 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -30,35 +27,15 @@
 </div>
 <!-- end header part -->
 <!-- Создано системой Doxygen 1.8.18 -->
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
-/* @license-end */
-</script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
-  initMenu('',true,false,'search.php','Поиск');
-  $(document).ready(function() { init_search(); });
+  initMenu('',false,false,'search.php','Поиск');
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<iframe src="javascript:void(0)" frameborder="0" 
-        name="MSearchResults" id="MSearchResults">
-</iframe>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="namespace_contractor_library.html">ContractorLibrary</a></li><li class="navelem"><a class="el" href="class_contractor_library_1_1_contractor.html">Contractor</a></li>  </ul>
@@ -79,14 +56,19 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Свойства</h2></td></tr>
 <tr class="memitem:aa9919be877dfa47086b555bc24e6501b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_library_1_1_contractor.html#aa9919be877dfa47086b555bc24e6501b">ID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa9919be877dfa47086b555bc24e6501b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Уникальный идентификатор контрагента; устанавливается классом ContractorDatabase  <a href="class_contractor_library_1_1_contractor.html#aa9919be877dfa47086b555bc24e6501b">Подробнее...</a><br /></td></tr>
 <tr class="separator:aa9919be877dfa47086b555bc24e6501b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08aa54d40f79f6f28249582492c82556"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_library_1_1_contractor.html#a08aa54d40f79f6f28249582492c82556">Name</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a08aa54d40f79f6f28249582492c82556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя контрагента  <a href="class_contractor_library_1_1_contractor.html#a08aa54d40f79f6f28249582492c82556">Подробнее...</a><br /></td></tr>
 <tr class="separator:a08aa54d40f79f6f28249582492c82556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a0f03b0cd92e550478798272af2dd90"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_library_1_1_contractor.html#a5a0f03b0cd92e550478798272af2dd90">PhoneNumber</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5a0f03b0cd92e550478798272af2dd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контактный номер контрагента  <a href="class_contractor_library_1_1_contractor.html#a5a0f03b0cd92e550478798272af2dd90">Подробнее...</a><br /></td></tr>
 <tr class="separator:a5a0f03b0cd92e550478798272af2dd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb0e43062f885dd0a7ef245332dc90e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_library_1_1_contractor.html#abeb0e43062f885dd0a7ef245332dc90e">Email</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abeb0e43062f885dd0a7ef245332dc90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Email контрагента  <a href="class_contractor_library_1_1_contractor.html#abeb0e43062f885dd0a7ef245332dc90e">Подробнее...</a><br /></td></tr>
 <tr class="separator:abeb0e43062f885dd0a7ef245332dc90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde5361725842dae9a4312f873af46a5"><td class="memItemLeft" align="right" valign="top">BitmapImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_library_1_1_contractor.html#acde5361725842dae9a4312f873af46a5">Photo</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:acde5361725842dae9a4312f873af46a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Фотография контрагента  <a href="class_contractor_library_1_1_contractor.html#acde5361725842dae9a4312f873af46a5">Подробнее...</a><br /></td></tr>
 <tr class="separator:acde5361725842dae9a4312f873af46a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
@@ -112,6 +94,8 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Email контрагента </p>
+
 </div>
 </div>
 <a id="aa9919be877dfa47086b555bc24e6501b"></a>
@@ -133,6 +117,8 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Уникальный идентификатор контрагента; устанавливается классом ContractorDatabase </p>
 
 </div>
 </div>
@@ -156,6 +142,8 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Имя контрагента </p>
+
 </div>
 </div>
 <a id="a5a0f03b0cd92e550478798272af2dd90"></a>
@@ -178,6 +166,8 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Контактный номер контрагента </p>
+
 </div>
 </div>
 <a id="acde5361725842dae9a4312f873af46a5"></a>
@@ -199,6 +189,8 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Фотография контрагента </p>
 
 </div>
 </div>

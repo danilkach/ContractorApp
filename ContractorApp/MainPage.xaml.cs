@@ -176,9 +176,21 @@ namespace ContractorApp
             Frame.Navigate(typeof(addEditPage), null);
         }
 
+        /// <summary>
+        /// Индекс последней добавленой строки в Grid, хранящий панели с контрагентами 
+        /// </summary>
         private int rowIndex;
+        /// <summary>
+        /// Последняя выбранная панель контрагента
+        /// </summary>
         private RelativePanel lastClickedContractor;
+        /// <summary>
+        /// Список контрагентов, загруженных из базы данных
+        /// </summary>
         private List<Contractor> contractors;
+        /// <summary>
+        /// Контейнер для placeHolder'а
+        /// </summary>
         private BitmapImage placeHolder;
     }
 }

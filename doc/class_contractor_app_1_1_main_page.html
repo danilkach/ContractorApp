@@ -9,9 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -30,35 +27,15 @@
 </div>
 <!-- end header part -->
 <!-- Создано системой Doxygen 1.8.18 -->
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
-/* @license-end */
-</script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
-  initMenu('',true,false,'search.php','Поиск');
-  $(document).ready(function() { init_search(); });
+  initMenu('',false,false,'search.php','Поиск');
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<iframe src="javascript:void(0)" frameborder="0" 
-        name="MSearchResults" id="MSearchResults">
-</iframe>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="namespace_contractor_app.html">ContractorApp</a></li><li class="navelem"><a class="el" href="class_contractor_app_1_1_main_page.html">MainPage</a></li>  </ul>
@@ -84,6 +61,14 @@ $(function() {
 Открытые члены</h2></td></tr>
 <tr class="memitem:a7773b17687cd3250cc26f09ba9d9f41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a7773b17687cd3250cc26f09ba9d9f41b">MainPage</a> ()</td></tr>
 <tr class="separator:a7773b17687cd3250cc26f09ba9d9f41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9468bc787bf6617ca87477575b68379d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a9468bc787bf6617ca87477575b68379d">Connect</a> (int connectionId, object target)</td></tr>
+<tr class="memdesc:a9468bc787bf6617ca87477575b68379d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_contractor_app_1_1_main_page.html#a9468bc787bf6617ca87477575b68379d" title="Connect()">Connect()</a>  <a href="class_contractor_app_1_1_main_page.html#a9468bc787bf6617ca87477575b68379d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9468bc787bf6617ca87477575b68379d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae63d144ecf88bca77caa2480f64360d"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Markup.IComponentConnector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#aae63d144ecf88bca77caa2480f64360d">GetBindingConnector</a> (int connectionId, object target)</td></tr>
+<tr class="separator:aae63d144ecf88bca77caa2480f64360d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba57fb03c565ccb81186bd9d2b8a32fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#aba57fb03c565ccb81186bd9d2b8a32fc">InitializeComponent</a> ()</td></tr>
+<tr class="memdesc:aba57fb03c565ccb81186bd9d2b8a32fc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_contractor_app_1_1_main_page.html#aba57fb03c565ccb81186bd9d2b8a32fc" title="InitializeComponent()">InitializeComponent()</a>  <a href="class_contractor_app_1_1_main_page.html#aba57fb03c565ccb81186bd9d2b8a32fc">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba57fb03c565ccb81186bd9d2b8a32fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Закрытые члены</h2></td></tr>
@@ -115,13 +100,55 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Закрытые данные</h2></td></tr>
 <tr class="memitem:a2b87af823bf8d2a9abc4e972c2379afb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a2b87af823bf8d2a9abc4e972c2379afb">rowIndex</a></td></tr>
+<tr class="memdesc:a2b87af823bf8d2a9abc4e972c2379afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Индекс последней добавленой строки в Grid, хранящий панели с контрагентами  <a href="class_contractor_app_1_1_main_page.html#a2b87af823bf8d2a9abc4e972c2379afb">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2b87af823bf8d2a9abc4e972c2379afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0741dd93488d3f1eefb8602f34c535c3"><td class="memItemLeft" align="right" valign="top">RelativePanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a0741dd93488d3f1eefb8602f34c535c3">lastClickedContractor</a></td></tr>
+<tr class="memdesc:a0741dd93488d3f1eefb8602f34c535c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Последняя выбранная панель контрагента  <a href="class_contractor_app_1_1_main_page.html#a0741dd93488d3f1eefb8602f34c535c3">Подробнее...</a><br /></td></tr>
 <tr class="separator:a0741dd93488d3f1eefb8602f34c535c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642bd94e28dab4eee6e3aea83d20e46f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_contractor_library_1_1_contractor.html">Contractor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a642bd94e28dab4eee6e3aea83d20e46f">contractors</a></td></tr>
+<tr class="memdesc:a642bd94e28dab4eee6e3aea83d20e46f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Список контрагентов, загруженных из базы данных  <a href="class_contractor_app_1_1_main_page.html#a642bd94e28dab4eee6e3aea83d20e46f">Подробнее...</a><br /></td></tr>
 <tr class="separator:a642bd94e28dab4eee6e3aea83d20e46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ebfc9c620be34aa9a63f534092f19e"><td class="memItemLeft" align="right" valign="top">BitmapImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a42ebfc9c620be34aa9a63f534092f19e">placeHolder</a></td></tr>
+<tr class="memdesc:a42ebfc9c620be34aa9a63f534092f19e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контейнер для placeHolder'а  <a href="class_contractor_app_1_1_main_page.html#a42ebfc9c620be34aa9a63f534092f19e">Подробнее...</a><br /></td></tr>
 <tr class="separator:a42ebfc9c620be34aa9a63f534092f19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfddcbdbe2827c5d031e59d48839ec1f"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Grid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#abfddcbdbe2827c5d031e59d48839ec1f">mainGrid</a></td></tr>
+<tr class="separator:abfddcbdbe2827c5d031e59d48839ec1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8deb66e85365942621c804fa9430dd9a"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.RelativePanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a8deb66e85365942621c804fa9430dd9a">contractorsPanel</a></td></tr>
+<tr class="separator:a8deb66e85365942621c804fa9430dd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee6dd893e03c06abaf80c542674f446"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.RelativePanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#abee6dd893e03c06abaf80c542674f446">contractorInfo</a></td></tr>
+<tr class="separator:abee6dd893e03c06abaf80c542674f446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d966b8b50400e94e5e00584571767dc"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a6d966b8b50400e94e5e00584571767dc">contractorName</a></td></tr>
+<tr class="separator:a6d966b8b50400e94e5e00584571767dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ad141204fc7aa572a58dfc7f658db4"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.ScrollViewer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#aa7ad141204fc7aa572a58dfc7f658db4">contractorInfoScrollViewer</a></td></tr>
+<tr class="separator:aa7ad141204fc7aa572a58dfc7f658db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40eb098ea8a33e566f8bcaeecf25b61a"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.RelativePanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a40eb098ea8a33e566f8bcaeecf25b61a">deleteEditButtonsPanel</a></td></tr>
+<tr class="separator:a40eb098ea8a33e566f8bcaeecf25b61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16160538f59323fb8c5e5a1f7a0495b8"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a16160538f59323fb8c5e5a1f7a0495b8">editContractorButton</a></td></tr>
+<tr class="separator:a16160538f59323fb8c5e5a1f7a0495b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c35430bf4d10a5bfb8dbf5ba07a8e2"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#ad7c35430bf4d10a5bfb8dbf5ba07a8e2">deleteContractorButton</a></td></tr>
+<tr class="separator:ad7c35430bf4d10a5bfb8dbf5ba07a8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acae0647dbf58f8a5bb5047abf5bcac"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.RelativePanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a3acae0647dbf58f8a5bb5047abf5bcac">contractorInfoPanel</a></td></tr>
+<tr class="separator:a3acae0647dbf58f8a5bb5047abf5bcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f761010ae68035535b86292e5e423c"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a18f761010ae68035535b86292e5e423c">contractorPhoto</a></td></tr>
+<tr class="separator:a18f761010ae68035535b86292e5e423c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085d6e9c677e08629ebb18b464ab9b57"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a085d6e9c677e08629ebb18b464ab9b57">contractorPhonenumberHeader</a></td></tr>
+<tr class="separator:a085d6e9c677e08629ebb18b464ab9b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490818b6c9a819af1ae07b40fac0617a"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a490818b6c9a819af1ae07b40fac0617a">contractorPhonenumberLabel</a></td></tr>
+<tr class="separator:a490818b6c9a819af1ae07b40fac0617a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32dacd66df2cb1ac5f880224c225a97c"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a32dacd66df2cb1ac5f880224c225a97c">contractorEmailHeader</a></td></tr>
+<tr class="separator:a32dacd66df2cb1ac5f880224c225a97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf5de98d15b499e122b2a755370f0de"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#aecf5de98d15b499e122b2a755370f0de">contractorEmailLabel</a></td></tr>
+<tr class="separator:aecf5de98d15b499e122b2a755370f0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8726ec014d624915a755e3028e2556"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.TextBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a6d8726ec014d624915a755e3028e2556">contractorLabel</a></td></tr>
+<tr class="separator:a6d8726ec014d624915a755e3028e2556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc4826813e97471ddf6efd178c79d3a"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.ScrollViewer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a9bc4826813e97471ddf6efd178c79d3a">contractorsScrollViewer</a></td></tr>
+<tr class="separator:a9bc4826813e97471ddf6efd178c79d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc0dc8ff464c6c428b31774d543fd72"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a2dc0dc8ff464c6c428b31774d543fd72">newContractorButton</a></td></tr>
+<tr class="separator:a2dc0dc8ff464c6c428b31774d543fd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920b32013d5e70cd869565a19f041775"><td class="memItemLeft" align="right" valign="top">global::Windows.UI.Xaml.Controls.Grid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a920b32013d5e70cd869565a19f041775">contractorsList</a></td></tr>
+<tr class="separator:a920b32013d5e70cd869565a19f041775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9abde910ba15a633e5545a2563ac0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contractor_app_1_1_main_page.html#a9a9abde910ba15a633e5545a2563ac0a">_contentLoaded</a></td></tr>
+<tr class="separator:a9a9abde910ba15a633e5545a2563ac0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Главная страница, предназначенная для просмотра информации о контрагентах, создания, редактирования и удаления записей контрагетов в базе данных </p>
@@ -175,6 +202,36 @@ $(function() {
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9468bc787bf6617ca87477575b68379d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9468bc787bf6617ca87477575b68379d">&#9670;&nbsp;</a></span>Connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContractorApp.MainPage.Connect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>connectionId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_contractor_app_1_1_main_page.html#a9468bc787bf6617ca87477575b68379d" title="Connect()">Connect()</a> </p>
 
 </div>
 </div>
@@ -310,6 +367,53 @@ $(function() {
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aae63d144ecf88bca77caa2480f64360d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae63d144ecf88bca77caa2480f64360d">&#9670;&nbsp;</a></span>GetBindingConnector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Markup.IComponentConnector ContractorApp.MainPage.GetBindingConnector </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>connectionId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba57fb03c565ccb81186bd9d2b8a32fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba57fb03c565ccb81186bd9d2b8a32fc">&#9670;&nbsp;</a></span>InitializeComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContractorApp.MainPage.InitializeComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_contractor_app_1_1_main_page.html#aba57fb03c565ccb81186bd9d2b8a32fc" title="InitializeComponent()">InitializeComponent()</a> </p>
 
 </div>
 </div>
@@ -476,6 +580,248 @@ $(function() {
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
+<a id="a9a9abde910ba15a633e5545a2563ac0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9abde910ba15a633e5545a2563ac0a">&#9670;&nbsp;</a></span>_contentLoaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ContractorApp.MainPage._contentLoaded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32dacd66df2cb1ac5f880224c225a97c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32dacd66df2cb1ac5f880224c225a97c">&#9670;&nbsp;</a></span>contractorEmailHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorEmailHeader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecf5de98d15b499e122b2a755370f0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecf5de98d15b499e122b2a755370f0de">&#9670;&nbsp;</a></span>contractorEmailLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorEmailLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abee6dd893e03c06abaf80c542674f446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee6dd893e03c06abaf80c542674f446">&#9670;&nbsp;</a></span>contractorInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.RelativePanel ContractorApp.MainPage.contractorInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3acae0647dbf58f8a5bb5047abf5bcac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acae0647dbf58f8a5bb5047abf5bcac">&#9670;&nbsp;</a></span>contractorInfoPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.RelativePanel ContractorApp.MainPage.contractorInfoPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7ad141204fc7aa572a58dfc7f658db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7ad141204fc7aa572a58dfc7f658db4">&#9670;&nbsp;</a></span>contractorInfoScrollViewer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.ScrollViewer ContractorApp.MainPage.contractorInfoScrollViewer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d8726ec014d624915a755e3028e2556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d8726ec014d624915a755e3028e2556">&#9670;&nbsp;</a></span>contractorLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d966b8b50400e94e5e00584571767dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d966b8b50400e94e5e00584571767dc">&#9670;&nbsp;</a></span>contractorName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a085d6e9c677e08629ebb18b464ab9b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085d6e9c677e08629ebb18b464ab9b57">&#9670;&nbsp;</a></span>contractorPhonenumberHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorPhonenumberHeader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a490818b6c9a819af1ae07b40fac0617a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490818b6c9a819af1ae07b40fac0617a">&#9670;&nbsp;</a></span>contractorPhonenumberLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.TextBlock ContractorApp.MainPage.contractorPhonenumberLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18f761010ae68035535b86292e5e423c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f761010ae68035535b86292e5e423c">&#9670;&nbsp;</a></span>contractorPhoto</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Image ContractorApp.MainPage.contractorPhoto</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a642bd94e28dab4eee6e3aea83d20e46f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a642bd94e28dab4eee6e3aea83d20e46f">&#9670;&nbsp;</a></span>contractors</h2>
 
@@ -487,6 +833,140 @@ $(function() {
       <table class="memname">
         <tr>
           <td class="memname">List&lt;<a class="el" href="class_contractor_library_1_1_contractor.html">Contractor</a>&gt; ContractorApp.MainPage.contractors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Список контрагентов, загруженных из базы данных </p>
+
+</div>
+</div>
+<a id="a920b32013d5e70cd869565a19f041775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920b32013d5e70cd869565a19f041775">&#9670;&nbsp;</a></span>contractorsList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Grid ContractorApp.MainPage.contractorsList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8deb66e85365942621c804fa9430dd9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8deb66e85365942621c804fa9430dd9a">&#9670;&nbsp;</a></span>contractorsPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.RelativePanel ContractorApp.MainPage.contractorsPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bc4826813e97471ddf6efd178c79d3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc4826813e97471ddf6efd178c79d3a">&#9670;&nbsp;</a></span>contractorsScrollViewer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.ScrollViewer ContractorApp.MainPage.contractorsScrollViewer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7c35430bf4d10a5bfb8dbf5ba07a8e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c35430bf4d10a5bfb8dbf5ba07a8e2">&#9670;&nbsp;</a></span>deleteContractorButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Button ContractorApp.MainPage.deleteContractorButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40eb098ea8a33e566f8bcaeecf25b61a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40eb098ea8a33e566f8bcaeecf25b61a">&#9670;&nbsp;</a></span>deleteEditButtonsPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.RelativePanel ContractorApp.MainPage.deleteEditButtonsPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16160538f59323fb8c5e5a1f7a0495b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16160538f59323fb8c5e5a1f7a0495b8">&#9670;&nbsp;</a></span>editContractorButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Button ContractorApp.MainPage.editContractorButton</td>
         </tr>
       </table>
   </td>
@@ -518,6 +998,52 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Последняя выбранная панель контрагента </p>
+
+</div>
+</div>
+<a id="abfddcbdbe2827c5d031e59d48839ec1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfddcbdbe2827c5d031e59d48839ec1f">&#9670;&nbsp;</a></span>mainGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Grid ContractorApp.MainPage.mainGrid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dc0dc8ff464c6c428b31774d543fd72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc0dc8ff464c6c428b31774d543fd72">&#9670;&nbsp;</a></span>newContractorButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">global.Windows.UI.Xaml.Controls.Button ContractorApp.MainPage.newContractorButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a42ebfc9c620be34aa9a63f534092f19e"></a>
@@ -540,6 +1066,8 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Контейнер для placeHolder'а </p>
+
 </div>
 </div>
 <a id="a2b87af823bf8d2a9abc4e972c2379afb"></a>
@@ -561,6 +1089,8 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Индекс последней добавленой строки в Grid, хранящий панели с контрагентами </p>
 
 </div>
 </div>

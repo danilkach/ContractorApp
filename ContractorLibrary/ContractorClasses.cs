@@ -147,10 +147,26 @@ namespace ContractorLibrary
     /// </summary>
     public class Contractor
     {
+        /// <summary>
+        /// Уникальный идентификатор контрагента;
+        /// устанавливается классом ContractorDatabase
+        /// </summary>
         public int ID { get; internal set; }
+        /// <summary>
+        /// Имя контрагента
+        /// </summary>
         public string Name { get; set; }
+        /// <summary>
+        /// Контактный номер контрагента
+        /// </summary>
         public string PhoneNumber { get; set; }
+        /// <summary>
+        /// Email контрагента
+        /// </summary>
         public string Email { get; set; }
+        /// <summary>
+        /// Фотография контрагента
+        /// </summary>
         public BitmapImage Photo { get; set; }
     }
     /// <summary>
@@ -159,9 +175,9 @@ namespace ContractorLibrary
     public static class XamlImageConverter
     {
         /// <summary>
-        /// Преобразует Windows.UI.Xaml.Controls.Image в byte[]
+        /// Преобразует Windows.UI.Xaml.Media.Imaging.BitmapImage в byte[]
         /// </summary>
-        /// <param name="image">Windows.UI.Xaml.Controls.Image подлежащий преобразованию</param>
+        /// <param name="image">Windows.UI.Xaml.Media.Imaging.BitmapImage подлежащий преобразованию</param>
         /// <returns>Возвращает объект типа Task<byte[]></returns>
         public static byte[] ConvertToByteArray(BitmapImage image)
         {
@@ -171,7 +187,7 @@ namespace ContractorLibrary
             return result;
         }
         /// <summary>
-        /// Преобразует byte[] в Windows.UI.Xaml.Controls.Image
+        /// Преобразует byte[] в Windows.UI.Xaml.Media.Imaging.BitmapImage
         /// </summary>
         /// <param name="imageBytes">byte[] подлежащий преобразованию</param>
         /// <returns>Возвращает объект типа Task<Windows.UI.Xaml.Controls.Image></returns>
@@ -191,6 +207,11 @@ namespace ContractorLibrary
             }
             return image;
         }
+        /// <summary>
+        /// Преобразует файл изображения в Windows.UI.Xaml.Media.Imaging.BitmapImage
+        /// </summary>
+        /// <param name="imageBytes">Путь к файлу, подлежащему преобразованию</param>
+        /// <returns>Возвращает объект типа Task<Windows.UI.Xaml.Controls.Image></returns>
         public async static Task<BitmapImage> ConvertToImage(string filename)
         {
             if (filename == null)
@@ -208,22 +229,5 @@ namespace ContractorLibrary
             }
             return image;
         }
-        /*
-        public static Image ConvertToImage(byte[] bytes)
-        {
-            BitmapImage image = new BitmapImage();
-            IRandomAccessStream stream = (IRandomAccessStream)new MemoryStream(bytes);
-            image.SetSource(stream);
-            Image img = new Image();
-            img.Source = image;
-            return img;
-        }
-        public static byte[] ConvertToByteArray(Image image)
-        {
-            using(MemoryStream stream = new MemoryStream())
-            {
-                
-            }
-        }*/
     }
 }
