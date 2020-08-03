@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="ContractorApp.addEditPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ContractorApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Style x:Key="Header" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <ScrollViewer x:Name="contractorInfoScrollViewer">
+            <RelativePanel>
+                <TextBox x:Name="contractorName" RelativePanel.AlignTopWithPanel="True" FontSize="30" Margin="10"
+                    RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <Image x:Name="contractorImage" MaxHeight="300" MaxWidth="300" RelativePanel.Below="contractorName"
+                    Margin="10" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <RelativePanel x:Name="imageButtons" RelativePanel.Below="contractorImage" 
+                            RelativePanel.AlignHorizontalCenterWithPanel="True">
+                    <Button Content="Изменить" x:Name="addImageButton" Margin="5" Click="addImageButton_Click"
+                            RelativePanel.AlignLeftWithPanel="True"/>
+                    <Button Content="Удалить" x:Name="removeImageButton" Margin="5" Click="removeImageButton_Click"
+                            RelativePanel.RightOf="addImageButton"/>
+                </RelativePanel>
+                <TextBlock x:Name="contractorPhoneHeader" Text="Контактный телефон" Style="{StaticResource Header}" 
+                    Margin="10" RelativePanel.Below="imageButtons" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <TextBox x:Name="contractorPhone" RelativePanel.Below="contractorPhoneHeader"
+                    Margin="10" RelativePanel.AlignHorizontalCenterWithPanel="True" PreviewKeyDown="contractorPhone_PreviewKeyDown"/>
+                <TextBlock x:Name="contractorEmailHeader" Text="Email" Style="{StaticResource Header}"
+                    Margin="10" RelativePanel.Below="contractorPhone" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <TextBox x:Name="contractorEmail" RelativePanel.Below="contractorEmailHeader"
+                    Margin="10" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <Button Content="Сохранить" x:Name="saveButton" Margin="5" Click="saveButton_Click" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                        RelativePanel.Below="contractorEmail"/>
+            </RelativePanel>
+        </ScrollViewer>
+        <Button x:Name="BackButton" Style="{StaticResource NavigationBackButtonNormalStyle}" VerticalAlignment="Top" 
+            Click="BackButton_Click"/>
+    </Grid>
+</Page>
